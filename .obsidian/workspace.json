@@ -8,20 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e64dff2a080d8577",
+            "id": "be257c30cd9e74b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YT/Understanding classes and object-oriented programming Python Tutorial.md",
-                "mode": "preview",
+                "file": "IMDB/The Day of the Jackal.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding classes and object-oriented programming Python Tutorial"
+              "title": "The Day of the Jackal"
+            }
+          },
+          {
+            "id": "fa391f270a2b13cd",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "icon": "layout",
+              "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 682.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,24 +198,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "e64dff2a080d8577",
+  "active": "fa391f270a2b13cd",
   "lastOpenFiles": [
+    "IMDB/The Day of the Jackal.md",
+    "IMDB/The Agency Central Intelligence.md",
+    "2025-06.md",
+    "2025-06-10.md",
+    "2025-W24.md",
+    "Templater_Folder/IMDB.md",
+    "YT/Understanding classes and object-oriented programming Python Tutorial.md",
     "YT/Screenshots/Pasted image 20231019153112.png",
     "YT/Screenshots/Pasted image 20231019150031.png",
     "YT/New York in 4K.md",
-    "YT/Understanding classes and object-oriented programming Python Tutorial.md",
     "YT/Use OneDrive On Linux The EASY Way.md",
     "Obsidian_notes/filename heading sync.md",
-    "Templater_Folder/IMDB.md",
     "Templater_Folder/YouTube.md",
-    "IMDB/The Day of the Jackal.md",
     "IMDB/Daredevil.md",
     "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
     "2025-06-16.md",
-    "IMDB/The Agency Central Intelligence.md",
     "2025-06-09.md",
     "Templater_Folder/Goodreads.md",
     "Templater_Folder/paper.md",
@@ -215,9 +231,6 @@
     "Templater_Folder/Weekly_Note.md",
     "Templater_Folder/Monthly_Note.md",
     "Templater_Folder/GH.md",
-    "Templater_Folder/Daily_Note.md",
-    "Templater_Folder/Daily_.md",
-    "Templater_Folder/Daily.md",
     "Templater_Folder",
     "Scripts/obsidian-scrapers-main/youtube.js",
     "Scripts/obsidian-scrapers-main/wikipedia.js",
@@ -226,7 +239,6 @@
     "Scripts/obsidian-scrapers-main/letterboxd.js",
     "Scripts/obsidian-scrapers-main/imdb.js",
     "Scripts/obsidian-scrapers-main/goodreads.js",
-    "Scripts/obsidian-scrapers-main/README.md",
     "Scripts/obsidian-scrapers-main/LICENSE",
     "YT/Screenshots/Screenshot from 2024-03-06 18-37-46.png",
     "YT/Screenshots/Screenshot from 2024-03-06 18-34-17.png",
@@ -235,7 +247,6 @@
     "YT/Screenshots/Screenshot 2024-03-07 145926.png",
     "YT/Screenshots/Screenshot 2024-03-07 141208.png",
     "YT/Screenshots/Screenshot 2024-03-07 114035.png",
-    "YT/Screenshots/Screenshot 2024-03-07 113901.png",
-    "YT/Screenshots/Screenshot 2024-03-06 180904.png"
+    "YT/Screenshots/Screenshot 2024-03-07 113901.png"
   ]
 }

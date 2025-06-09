@@ -4,5 +4,6 @@
   "custom-font-loader",
   "templater-obsidian",
   "obsidian-filename-heading-sync",
-  "execute-code"
+  "execute-code",
+  "obsidian-projects"
 ]
