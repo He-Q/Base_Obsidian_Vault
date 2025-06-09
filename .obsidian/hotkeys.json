@@ -1,0 +1,34 @@
+{
+  "obsidian-timestamp-notes:trigger-player": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-timestamp-notes:timestamp-insert": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "youtube-template:youtube-insert-template-from-clipboard": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-filename-heading-sync:sync-heading-to-filename": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ]
+}
