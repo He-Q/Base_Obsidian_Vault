@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
-                "mode": "source",
+                "file": "YT/Understanding classes and object-oriented programming Python Tutorial.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Billionaire Bill Ackman's Key to Long Term Investment Success"
+              "title": "Understanding classes and object-oriented programming Python Tutorial"
             }
           }
         ]
@@ -152,7 +152,7 @@
             }
           },
           {
-            "id": "6f255ba4803aec78",
+            "id": "113bbc09b6e251fb",
             "type": "leaf",
             "state": {
               "type": "video-view",
@@ -160,14 +160,23 @@
               "icon": "video",
               "title": "Timestamp Video"
             }
+          },
+          {
+            "id": "f9b4e4199cf15989",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {},
+              "icon": "command-glyph",
+              "title": "Execution Runtimes"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 682.5,
-    "collapsed": true
+    "width": 682.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,16 +191,21 @@
   },
   "active": "e64dff2a080d8577",
   "lastOpenFiles": [
+    "YT/Screenshots/Pasted image 20231019153112.png",
+    "YT/Screenshots/Pasted image 20231019150031.png",
+    "YT/New York in 4K.md",
     "YT/Understanding classes and object-oriented programming Python Tutorial.md",
-    "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
+    "YT/Use OneDrive On Linux The EASY Way.md",
+    "Obsidian_notes/filename heading sync.md",
+    "Templater_Folder/IMDB.md",
+    "Templater_Folder/YouTube.md",
     "IMDB/The Day of the Jackal.md",
     "IMDB/Daredevil.md",
-    "Templater_Folder/IMDB.md",
+    "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
     "2025-06-16.md",
     "IMDB/The Agency Central Intelligence.md",
     "2025-06-09.md",
     "Templater_Folder/Goodreads.md",
-    "Templater_Folder/YouTube.md",
     "Templater_Folder/paper.md",
     "YT/Demis Hassabis On The Future of Work in the Age of AI.md",
     "IMDB",
@@ -214,7 +228,6 @@
     "Scripts/obsidian-scrapers-main/goodreads.js",
     "Scripts/obsidian-scrapers-main/README.md",
     "Scripts/obsidian-scrapers-main/LICENSE",
-    "Obsidian_notes/TimeStamp Notes (YouTube).md",
     "YT/Screenshots/Screenshot from 2024-03-06 18-37-46.png",
     "YT/Screenshots/Screenshot from 2024-03-06 18-34-17.png",
     "YT/Screenshots/Screenshot from 2024-03-06 16-59-15.png",
@@ -223,10 +236,6 @@
     "YT/Screenshots/Screenshot 2024-03-07 141208.png",
     "YT/Screenshots/Screenshot 2024-03-07 114035.png",
     "YT/Screenshots/Screenshot 2024-03-07 113901.png",
-    "YT/Screenshots/Screenshot 2024-03-06 180904.png",
-    "YT/Screenshots/Screenshot 2024-03-06 181103.png",
-    "YT/Neo4j/Neo4j from graphacademy.md",
-    "YT/Neo4j/Cypher Fundamentals - Writing - Updating Properties.md",
-    "YT/Neo4j/Cypher Fundamentals - Writing - Merge Processing.md"
+    "YT/Screenshots/Screenshot 2024-03-06 180904.png"
   ]
 }

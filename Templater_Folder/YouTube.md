@@ -17,8 +17,8 @@ thumbnail: "<% tp.user.youtube('thumbnail', tp, doc) %>"
 keywords: [<% tp.user.youtube('keywordsQ', tp, doc) %>]
 duration: <% tp.user.youtube('duration', tp, doc) %>
 watching_IN_progress: true
-watched_completely : false
 notes_taken: false
+watched_completely : false
 ---
 
 
