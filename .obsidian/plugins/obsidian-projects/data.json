@@ -96,6 +96,24 @@
           "id": "56b886f2-debd-45c5-8dcf-925bdbd7423d",
           "name": "Table",
           "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "thumbnail",
+            "fitStyle": "contain"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a1f62f53-9987-4f8c-9422-24804fed8ae2",
+          "name": "Gallery",
+          "type": "gallery"
         }
       ],
       "id": "5e9139e8-28ad-4536-ac26-d0f935597ab3",

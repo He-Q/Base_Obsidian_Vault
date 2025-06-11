@@ -65,7 +65,7 @@ async function imdb(value, tp, doc) {
     case "duration":
       return duration(json);
     case "description":
-      return doc.querySelector("span[data-testid='plot-xl']").innerText;
+      let desc = doc.querySelector("span[data-testid='plot-xl']").innerText;
       return desc.replace(/"/g, '\\"');
     case "type":
       return type(json);

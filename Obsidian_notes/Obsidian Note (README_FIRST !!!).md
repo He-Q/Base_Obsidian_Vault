@@ -23,5 +23,5 @@
 4. [[Custom Font Loader]]
 5. [[Projects (This plugin is archived) still it's works to show as DASHBOARD]]
 6. [[Execute Code]] 
-7. [[Link Preview]]
+7. [[Rich Links]]
 8. [[Media Extended]]
