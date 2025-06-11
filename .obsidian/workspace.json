@@ -18,17 +18,17 @@
             }
           },
           {
-            "id": "bc691373f46e307b",
+            "id": "5d7bf6a878bfd9ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_notes/Media Extended.md",
+                "file": "Obsidian_notes/Readme_First-Obsidian Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Media Extended"
+              "title": "Readme_First-Obsidian Notes"
             }
           }
         ],
@@ -204,13 +204,13 @@
       "obsidian-rich-links:Rich Links": false
     }
   },
-  "active": "bc691373f46e307b",
+  "active": "5d7bf6a878bfd9ca",
   "lastOpenFiles": [
+    "Obsidian_notes/Media Extended.md",
     "Obsidian_notes/Readme_Obsidian Note.md",
     "Obsidian_notes/Readme_First-Obsidian Notes.md",
     "Readme.md",
     "Readme_Obsidian Note.md",
-    "Obsidian_notes/Media Extended.md",
     "Obsidian_notes/Rich Links.md",
     "YT/The Backwards Brain Bicycle - Smarter Every Day 133.md",
     "YT/Understanding classes and object-oriented programming Python Tutorial.md",
