@@ -32,27 +32,24 @@ async function imdb(value, tp, doc) {
     case "keywords":
       return keywords(json);
     case "keywordsQ":
-      // Quotes
       let keywordsQ = keywords(json);
       return '"' + keywordsQ.replace(/, /g, '", "') + '"';
     case "keywordsL":
-      // List
       let keywordsL = keywords(json);
       return "\n- " + keywordsL.replace(/, /g, "\n- ");
     case "keywordsW":
-      // Wiki links
       let keywordsW = keywords(json);
       return "[[" + keywordsW.replace(/, /g, "]], [[") + "]]";
     case "directors":
-      return directors(json);
+      return await directors(json, tp, url);
     case "directorsQ":
-      let directorsQ = directors(json);
+      let directorsQ = await directors(json, tp, url);
       return '"' + directorsQ.replace(/, /g, '", "') + '"';
     case "directorsL":
-      let directorsL = directors(json);
+      let directorsL = await directors(json, tp, url);
       return "\n- " + directorsL.replace(/, /g, "\n- ");
     case "directorsW":
-      let directorsW = directors(json);
+      let directorsW = await directors(json, tp, url);
       return "[[" + directorsW.replace(/, /g, "]], [[") + "]]";
     case "creators":
       return creators(json);
@@ -69,6 +66,7 @@ async function imdb(value, tp, doc) {
       return duration(json);
     case "description":
       return doc.querySelector("span[data-testid='plot-xl']").innerText;
+      return desc.replace(/"/g, '\\"');
     case "type":
       return type(json);
     case "contentRating":
@@ -109,21 +107,91 @@ async function imdb(value, tp, doc) {
       let countriesW = countries(doc);
       return "[[" + countriesW.replace(/, /g, "]], [[") + "]]";
     case "url":
-      return "https://www.imdb.com" + json.url;
+      return json.url; // Fixed: removed duplicate URL
     default:
       new Notice("Incorrect parameter: " + value, 5000);
   }
 }
 
+// Updated directors function to handle TV series
+async function directors(json, tp, originalUrl) {
+  let directors = "";
+  
+  // Check if it's a TV series
+  if (json["@type"] === "TVSeries") {
+    // For TV series, get directors from fullcredits page
+    try {
+      let fullCreditsUrl = originalUrl.replace(/\/$/, '') + '/fullcredits/';
+      let creditsPage = await tp.obsidian.request({ url: fullCreditsUrl });
+      let creditsDoc = new DOMParser().parseFromString(creditsPage, "text/html");
+      
+      // Find directors section in fullcredits
+      let directorsSection = creditsDoc.querySelector('#director');
+      if (directorsSection) {
+        let directorTable = directorsSection.closest('h4').nextElementSibling;
+        if (directorTable && directorTable.tagName === 'TABLE') {
+          let directorLinks = directorTable.querySelectorAll('td.name a');
+          let directorNames = Array.from(directorLinks).map(link => link.textContent.trim());
+          // Remove duplicates and limit to top directors
+          let uniqueDirectors = [...new Set(directorNames)].slice(0, 5);
+          directors = uniqueDirectors.join(', ');
+        }
+      }
+      
+      // Fallback: try alternative selector
+      if (!directors) {
+        let directorElements = creditsDoc.querySelectorAll('table.cast_list td.name a[href*="/name/"]');
+        if (directorElements.length === 0) {
+          // Try another approach - look for directing credit
+          let creditTables = creditsDoc.querySelectorAll('table.simpleTable');
+          for (let table of creditTables) {
+            let prevHeader = table.previousElementSibling;
+            if (prevHeader && prevHeader.textContent.toLowerCase().includes('direct')) {
+              let directorLinks = table.querySelectorAll('td.name a');
+              let directorNames = Array.from(directorLinks).map(link => link.textContent.trim());
+              let uniqueDirectors = [...new Set(directorNames)].slice(0, 5);
+              directors = uniqueDirectors.join(', ');
+              break;
+            }
+          }
+        }
+      }
+      
+    } catch (error) {
+      console.error("Error fetching directors from fullcredits:", error);
+      // Fallback to creators for TV series
+      if (json.creator != null) {
+        directors = json.creator.map((creator) => creator.name);
+        directors = JSON.stringify(directors)
+          .replace(/null,?/g, "")
+          .replace(/","/g, ", ")
+          .replace(/\["/g, "")
+          .replace(/\"]/, "");
+      }
+    }
+  } else {
+    // For movies, use the original logic
+    if (json.director != null) {
+      directors = json.director.map((director) => director.name);
+      directors = JSON.stringify(directors)
+        .replace(/null,?/g, "")
+        .replace(/","/g, ", ")
+        .replace(/\["/g, "")
+        .replace(/\"]/, "");
+    }
+  }
+  
+  return directors;
+}
+
+// Rest of your existing functions remain the same...
 function isValidHttpUrl(string) {
   let url;
-
   try {
     url = new URL(string);
   } catch (_) {
     return false;
   }
-
   return url.protocol === "http:" || url.protocol === "https:";
 }
 
@@ -152,19 +220,6 @@ function keywords(json) {
     keywords = keywords.toLowerCase().replace(/,/g, ", ").replace(/"/g, "");
   }
   return keywords;
-}
-
-function directors(json) {
-  let directors = "";
-  if (json.director != null) {
-    directors = json.director.map((director) => director.name);
-    directors = JSON.stringify(directors)
-      .replace(/null,?/g, "")
-      .replace(/","/g, ", ")
-      .replace(/\["/g, "")
-      .replace(/\"]/, "");
-  }
-  return directors;
 }
 
 function creators(json) {
@@ -217,9 +272,7 @@ function stars(json) {
 
 function countries(doc) {
   let countries = doc.querySelectorAll("a[href*='country_of_origin']");
-  countries = Array.from(countries, (countries) => countries.textContent).join(
-    ", "
-  );
+  countries = Array.from(countries, (countries) => countries.textContent).join(", ");
   return countries;
 }
 

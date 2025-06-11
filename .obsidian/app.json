@@ -1,1 +1,5 @@
-{}
+{
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden"
+}

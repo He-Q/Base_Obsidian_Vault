@@ -30,5 +30,29 @@
       ],
       "key": "F"
     }
+  ],
+  "enhance-youtube-links:enhance-youtube-links-process-text": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ],
+  "obsidian-rich-links:create-rich-links": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ],
+  "youtube-downloader:download-youtube-video": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }

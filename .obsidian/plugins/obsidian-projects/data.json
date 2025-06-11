@@ -4,65 +4,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
-          "path": "YT",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {},
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "77efcd08-26c1-4a74-becc-b31434025cf9",
-          "name": "Table",
-          "type": "table"
-        },
-        {
-          "config": {
-            "coverField": "thumbnail",
-            "fitStyle": "contain"
-          },
-          "filter": {
-            "conditions": [
-              {
-                "field": "Date now",
-                "operator": "is-empty",
-                "enabled": false
-              }
-            ]
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "3bd271b3-6138-45ba-a7ca-6546972b414c",
-          "name": "Gallery",
-          "type": "gallery"
-        }
+      "templates": [
+        "Templater_Folder/IMDB.md"
       ],
-      "id": "83c4d921-82ea-422b-bd44-ef983783738e",
-      "name": "YT"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -75,6 +19,70 @@
       "newNotesFolder": "",
       "views": [
         {
+          "config": {
+            "fieldConfig": {
+              "url": {
+                "width": 364
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1198e3dc-d12e-4532-b517-e7fa1bc07970",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "start_date",
+              "list_of_directors"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e6208a6c-62b6-4c0c-88a2-3486ac418a77",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "62b05fc6-c7b7-412e-a236-4af53bfb76ec",
+      "name": "IMDB"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templater_Folder/YouTube.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YT",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "YT",
+      "views": [
+        {
           "config": {},
           "filter": {
             "conditions": []
@@ -85,32 +93,13 @@
           "sort": {
             "criteria": []
           },
-          "id": "df0cc214-0290-461f-944f-46b9fdd005bb",
+          "id": "56b886f2-debd-45c5-8dcf-925bdbd7423d",
           "name": "Table",
           "type": "table"
-        },
-        {
-          "config": {
-            "coverField": "cover",
-            "fitStyle": "cover",
-            "includeFields": []
-          },
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "276dc7ef-c07d-4e4f-8b2a-14edc6ec077c",
-          "name": "Gallery",
-          "type": "gallery"
         }
       ],
-      "id": "c2b2af07-4865-4777-ab08-24cd3dd8fa1e",
-      "name": "MIx"
+      "id": "5e9139e8-28ad-4536-ac26-d0f935597ab3",
+      "name": "YT"
     }
   ],
   "archives": [],

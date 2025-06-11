@@ -1,0 +1,1 @@
+This plugin will come in handy, when you want to take note or to view a local video/tutorial.

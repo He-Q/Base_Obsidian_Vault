@@ -14,11 +14,11 @@ keywords:
   - free
   - upload
 duration: 126m 46s
-watched_completely: false
+watched_completely: true
 notes_taken: true
-watching_In_progress: true
+watching_In_progress: false
 ---
-
+********
 
 # Understanding classes and object-oriented programming [Python Tutorial]
 
@@ -1446,11 +1446,12 @@ print(vars(monster))
 
 
 setattr:
-	![[Pasted image 20240218020315.png]]
 
-	![[Pasted image 20240218020741.png]]
+![[Pasted image 20240218020315.png]]
 
-	![[Pasted image 20240218021102.png]]
+![[Pasted image 20240218020741.png]]
+
+![[Pasted image 20240218021102.png]]
 
 
 ```timestamp 

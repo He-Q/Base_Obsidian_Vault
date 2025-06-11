@@ -4,35 +4,221 @@
     "type": "split",
     "children": [
       {
-        "id": "c963e0381c4d71e5",
+        "id": "f5874e7917a2ea77",
         "type": "tabs",
         "children": [
           {
-            "id": "be257c30cd9e74b9",
+            "id": "6d65236431534ef4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IMDB/The Day of the Jackal.md",
+                "file": "Templater_Folder/YouTube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Day of the Jackal"
+              "title": "YouTube"
             }
           },
           {
-            "id": "fa391f270a2b13cd",
+            "id": "afbaf422f714679a",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "layout",
-              "title": "Projects"
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/John Carter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "John Carter"
+            }
+          },
+          {
+            "id": "05afebb9080c3d50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templater_Folder/IMDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMDB"
+            }
+          },
+          {
+            "id": "4d31c41ab7b439cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Tenet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tenet"
+            }
+          },
+          {
+            "id": "04b6cadb20955431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Tenet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tenet"
+            }
+          },
+          {
+            "id": "bdb60768cfede2c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/The Creator.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Creator"
+            }
+          },
+          {
+            "id": "4706b7ee422b6203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YT/New York in 4K.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "New York in 4K"
+            }
+          },
+          {
+            "id": "508ac3aa46939e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Rurouni Kenshin Part I Origins.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rurouni Kenshin Part I Origins"
+            }
+          },
+          {
+            "id": "d391c91a622bc67d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Marco Polo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Marco Polo"
+            }
+          },
+          {
+            "id": "67bf83425437aa0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Marco Polo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Marco Polo"
+            }
+          },
+          {
+            "id": "62d06fa2e1c96278",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Marco Polo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Marco Polo"
+            }
+          },
+          {
+            "id": "fd56b666e5c7b18e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Marco Polo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Marco Polo"
+            }
+          },
+          {
+            "id": "af83d093fc6ae258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Chernobyl.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chernobyl"
+            }
+          },
+          {
+            "id": "2b61f71a5d514a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMDB/Chernobyl.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chernobyl"
+            }
+          },
+          {
+            "id": "2d0153f31b2f7cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YT/Understanding classes and object-oriented programming Python Tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Understanding classes and object-oriented programming Python Tutorial"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -105,17 +291,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
-                "collapseAll": false,
+                "file": "Obsidian_notes/Templater.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Templater"
             }
           },
           {
@@ -124,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Obsidian_notes/Templater.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Templater"
             }
           },
           {
@@ -153,23 +339,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
+                "file": "Obsidian_notes/Templater.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Billionaire Bill Ackman's Key to Long Term Investment Success"
-            }
-          },
-          {
-            "id": "113bbc09b6e251fb",
-            "type": "leaf",
-            "state": {
-              "type": "video-view",
-              "state": {},
-              "icon": "video",
-              "title": "Timestamp Video"
+              "title": "Outline of Templater"
             }
           },
           {
@@ -181,13 +357,23 @@
               "icon": "command-glyph",
               "title": "Execution Runtimes"
             }
+          },
+          {
+            "id": "6307cbe435717163",
+            "type": "leaf",
+            "state": {
+              "type": "video-view",
+              "state": {},
+              "icon": "video",
+              "title": "Timestamp Video"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 279.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -199,54 +385,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "fa391f270a2b13cd",
+  "active": "2d0153f31b2f7cbf",
   "lastOpenFiles": [
-    "IMDB/The Day of the Jackal.md",
-    "IMDB/The Agency Central Intelligence.md",
-    "2025-06.md",
-    "2025-06-10.md",
-    "2025-W24.md",
-    "Templater_Folder/IMDB.md",
-    "YT/Understanding classes and object-oriented programming Python Tutorial.md",
-    "YT/Screenshots/Pasted image 20231019153112.png",
-    "YT/Screenshots/Pasted image 20231019150031.png",
+    "IMDB/Chernobyl.md",
+    "IMDB/The Creator.md",
+    "IMDB/Marco Polo.md",
+    "IMDB/Chernobyl.md",
+    "IMDB/Rurouni Kenshin Part I Origins.md",
+    "IMDB/The Great Battle.md",
+    "Obsidian_notes/Filename Heading Sync.md",
+    "IMDB/Interstellar.md",
     "YT/New York in 4K.md",
-    "YT/Use OneDrive On Linux The EASY Way.md",
-    "Obsidian_notes/filename heading sync.md",
+    "Obsidian_notes/Projects (This plugin is archived) still it's works to show as DASHBOARD.md",
+    "SS/Pasted image 20250611120240.png",
+    "SS/Pasted image 20250611120128.png",
+    "IMDB/Marco Polo.md",
+    "IMDB/Tenet.md",
+    "Templater_Folder/IMDB.md",
     "Templater_Folder/YouTube.md",
-    "IMDB/Daredevil.md",
-    "YT/Billionaire Bill Ackman's Key to Long Term Investment Success.md",
-    "2025-06-16.md",
-    "2025-06-09.md",
-    "Templater_Folder/Goodreads.md",
-    "Templater_Folder/paper.md",
-    "YT/Demis Hassabis On The Future of Work in the Age of AI.md",
+    "IMDB/John Carter.md",
+    "IMDB/Inception.md",
+    "IMDB/John Wick.md",
     "IMDB",
-    "building a startup in your 20s.md",
-    "asd.md",
-    "Templater_Folder/Yearly_Note.md",
-    "Templater_Folder/Weekly_Note.md",
-    "Templater_Folder/Monthly_Note.md",
-    "Templater_Folder/GH.md",
+    "Templater_Folder/imdb 1.md",
+    "YT/Understanding classes and object-oriented programming Python Tutorial.md",
+    "2023-10-01.md",
+    "undefined.mp4",
+    "YT/Music/Passenger  Let Her Go (Official Video).md",
+    "Obsidian_notes/Obsidian Note (README_FIRST !!!).md",
+    "YT/Music/Miyagi - Captain (Live).md",
+    "Obsidian_notes/Execute Code.md",
+    "Obsidian_notes/Timestamp Notes (YouTube).md",
+    "YT/Music/JONY - Love your voice.md",
+    "YT/Music",
+    "YT/YT_Screenshots/Pasted image 20231130234222.png",
+    "YT/YT_Screenshots/Pasted image 20231130233150.png",
+    "YT/YT_Screenshots/Pasted image 20231130201133.png",
+    "SS/Pasted image 20250610183024.png",
+    "SS/Pasted image 20250610183254.png",
+    "YT/YT_Screenshots/Pasted image 20240217232344.png",
+    "YT/YT_Screenshots/Pasted image 20240217231756.png",
+    "YT/YT_Screenshots/Pasted image 20240217231644.png",
+    "SS",
+    "IMDB",
     "Templater_Folder",
     "Scripts/obsidian-scrapers-main/youtube.js",
     "Scripts/obsidian-scrapers-main/wikipedia.js",
     "Scripts/obsidian-scrapers-main/website.js",
-    "Scripts/obsidian-scrapers-main/odysee.js",
-    "Scripts/obsidian-scrapers-main/letterboxd.js",
-    "Scripts/obsidian-scrapers-main/imdb.js",
-    "Scripts/obsidian-scrapers-main/goodreads.js",
-    "Scripts/obsidian-scrapers-main/LICENSE",
-    "YT/Screenshots/Screenshot from 2024-03-06 18-37-46.png",
-    "YT/Screenshots/Screenshot from 2024-03-06 18-34-17.png",
-    "YT/Screenshots/Screenshot from 2024-03-06 16-59-15.png",
-    "YT/Screenshots/Screenshot 2024-03-07 150018.png",
-    "YT/Screenshots/Screenshot 2024-03-07 145926.png",
-    "YT/Screenshots/Screenshot 2024-03-07 141208.png",
-    "YT/Screenshots/Screenshot 2024-03-07 114035.png",
-    "YT/Screenshots/Screenshot 2024-03-07 113901.png"
+    "Scripts/obsidian-scrapers-main/odysee.js"
   ]
 }
