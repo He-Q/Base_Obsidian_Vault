@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82d93e178905a57c",
+            "id": "65aa054d3b7a7455",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "7c2e8316da671ca3",
+            "id": "723a575a44c38de7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "65aa054d3b7a7455",
+            "id": "4d97f56d13a2f27d",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -187,7 +187,7 @@
             }
           },
           {
-            "id": "f75c04f620857447",
+            "id": "2b5bd7fe3acf2a63",
             "type": "leaf",
             "state": {
               "type": "video-view",
@@ -201,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
+    "width": 685.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -218,16 +218,17 @@
       "obsidian-rich-links:Rich Links": false
     }
   },
-  "active": "65aa054d3b7a7455",
+  "active": "4d97f56d13a2f27d",
   "lastOpenFiles": [
     "YT/Understanding classes and object-oriented programming Python Tutorial.md",
     "IMDB/Ready Player One.md",
+    "YT/The Backwards Brain Bicycle - Smarter Every Day 133.md",
+    "YT/New York in 4K.md",
+    "YT/Interview with a Boomer CTO.md",
+    "IMDB/Casino Royale.md",
     "Templater_Folder/Goodreads.md",
     "Templater_Folder/IMDB.md",
     "Templater_Folder/YouTube.md",
-    "YT/New York in 4K.md",
-    "YT/The Backwards Brain Bicycle - Smarter Every Day 133.md",
-    "YT/Untitled.md",
     "Templater_Folder/youtube_template_yaml_fixed.md",
     "Templater_Folder/Unconfirmed 552662.crdownload",
     "Templater_Folder/youtube_template_corrected.md",
@@ -249,7 +250,6 @@
     "IMDB/John Carter.md",
     "IMDB/Marco Polo.md",
     "Obsidian_notes/Readme_First-Obsidian Notes.md",
-    "Obsidian_notes/Media Extended.md",
     "SS/Pasted image 20250611120240.png",
     "SS/Pasted image 20250611120128.png",
     "IMDB",
