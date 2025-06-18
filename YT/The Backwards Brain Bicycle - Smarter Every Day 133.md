@@ -1,17 +1,43 @@
 ---
-
 title: The Backwards Brain Bicycle - Smarter Every Day 133
-date_now: 2025-06-11
-url: "https://youtu.be/MFzDaBzBlL0"
-aliases: ["The Backwards Brain Bicycle - Smarter Every Day 133"]
-channel: "SmarterEveryDay"
+date_now: 2025-06-18
+url: https://youtu.be/MFzDaBzBlL0
+aliases:
+  - The Backwards Brain Bicycle - Smarter Every Day 133
+channel: SmarterEveryDay
 published: 2015-04-24T16:01:29-07:00
-thumbnail: "https://img.youtube.com/vi/MFzDaBzBlL0/maxresdefault.jpg"
-keywords: ["Smarter", "Every", "Day", "Science", "Physics", "youtube edu", "Education", "Math", "Smarter Every Day", "experiment", "nature", "demonstration", "slow", "motion", "slow motion", "education", "math", "science", "science education", "be smart", "edu science", "what is science", "Physics of", "projects", "experiments", "science projects"]
+thumbnail: https://img.youtube.com/vi/MFzDaBzBlL0/maxresdefault.jpg
+keywords:
+  - Smarter
+  - Every
+  - Day
+  - Science
+  - Physics
+  - youtube edu
+  - Education
+  - Math
+  - Smarter Every Day
+  - experiment
+  - nature
+  - demonstration
+  - slow
+  - motion
+  - slow motion
+  - education
+  - math
+  - science
+  - science education
+  - be smart
+  - edu science
+  - what is science
+  - Physics of
+  - projects
+  - experiments
+  - science projects
 duration: 7m 58s
-watching_IN_progress: true
+watching_IN_progress: false
 notes_taken: false
-watched_completely : false
+watched_completely: true
 ---
 
 
@@ -131,13 +157,13 @@ Destin
 
 
 
-https://```timestamp-url 
- youtu.be/MFzDaBzBlL0
+https://youtu.be/MFzDaBzBlL0
+
+
+
+```timestamp-url 
+ https://youtu.be/MFzDaBzBlL0
  ```
 
-
-
-
-https://youtu.be/MFzDaBzBlL0
 
 

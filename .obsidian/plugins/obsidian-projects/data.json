@@ -42,7 +42,7 @@
         {
           "config": {
             "coverField": "cover",
-            "fitStyle": "contain",
+            "fitStyle": "cover",
             "includeFields": [
               "start_date",
               "list_of_directors"
